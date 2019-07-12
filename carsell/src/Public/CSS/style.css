@@ -1,0 +1,281 @@
+body {
+	padding: 50px;
+	height: 100%;
+}
+
+
+#logo_title {
+	float: left;
+}
+h1 {
+	color: #11587F;
+	font-size: 120px;
+	float:right;
+}
+h2 {
+	font-size: 40px;
+	color: #1B8DCC;
+}
+.container {
+	float: left;
+}
+
+.title {
+	font-size: 80px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.title:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.btn-secondary {
+	background-color: #22B0FF;
+	color: black;
+}
+
+.sidebar {
+	padding-top: 80px;
+	padding-left: 10%;
+	width: 300px;
+	float: left;
+	position: fixed;
+}
+
+.search {
+	padding-left: 50%;
+	padding-top: 8%;
+	color: black;
+}
+
+.searchbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+}
+
+.searchbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+}
+
+.border {
+	border: 2px solid #22B0FF;
+}
+
+.sidebarbutton {
+	border: 2px solid #22B0FF;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.sidebarbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+}
+
+.loginbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: white;
+	float: right;
+	margin-top: 8%;
+}
+
+.loginbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
+
+.col-6 {
+	padding-top: 2%;
+	margin-left: 30%;
+	margin-top: -4%;
+	text-align: center;
+}
+
+.slide {
+	margin-left: 22%;
+	padding-left: 10%;
+}
+
+.fussbereich {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+
+.fixed {
+	position: fixed;
+	bottom: 110px;
+	text-align: center;
+	width: 80%;
+	margin-left: 130px;
+}
+
+td {
+	padding: 20px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+}
+
+table {
+	border: none;
+}
+
+.carousel-control-prev {
+	color: black;
+}
+
+.carousel-control-next-icon {
+	background-image:
+		url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#22B0FF' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+	background-image:
+		url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#22B0FF' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 40px;
+	height: 40px;
+	background-size: 100% 100%;
+}
+
+#carouselExampleIndicators {
+	margin: -2%;
+	padding: 15%;
+}
+
+.carousel-indicators li {
+	background-color: #22B0FF;
+	margin-top: -30%;
+}
+
+.carousel-indicators .active {
+	background-color: #11587F;
+	margin-top: -30%;
+}
+
+.backbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: white;
+	float: left;
+	margin-top: 8%;
+}
+
+.backbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
+
+.activebutton {
+	background-color: #6FCBFF;
+}
+
+.buy {
+	float: left;
+}
+
+.buybutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: white;
+}
+
+.buybutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
+
+.info{
+	padding-left: 25%;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.sellbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: white;
+	float: left;
+	margin-left: 17%;
+}
+
+.sellbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
+
+.überschrift{
+	text-align: center;	
+	margin-bottom: 8%;
+}
+
+.mainloginbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: white;
+	float: left;
+}
+
+.mainloginbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
+
+.mitte {
+	width: 25%;
+	margin: -5% 38%;
+}
+
+.custom-select{
+	margin-bottom: 6%;
+}
+
+.abschickbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: white;
+	float: left;
+	margin-top: 6%;
+}
+
+.abschickbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
+
+.sofortbutton {
+	color: black;
+	border: 2px solid #22B0FF;
+	background-color: lightgreen;
+	margin-top: 8%;
+}
+
+.sofortbutton:hover {
+	background-color: #22B0FF;
+	border: 2px solid #22B0FF;
+	color: white;
+}
