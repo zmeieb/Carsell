@@ -4,22 +4,22 @@
 			<div class="btn-group-vertical">
 				<input type="button" class="btn btn-secondary btn-lg, sidebarbutton"
 					value="Cabriolet"
-					onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/showModel?model=cabriolet'" />
+					onclick="window.location.href='http://localhost/car/showModel?model=cabriolet'" />
 				<input type="button" class="btn btn-secondary btn-lg, sidebarbutton"
 					value="Coupé"
-					onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/showModel?model=coupe'" />
+					onclick="window.location.href='http://localhost/car/showModel?model=coupe'" />
 				<input type="button" class="btn btn-secondary btn-lg, sidebarbutton"
 					value="Kombi"
-					onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/showModel?model=kombi'" />
+					onclick="window.location.href='http://localhost/car/showModel?model=kombi'" />
 				<input type="button" class="btn btn-secondary btn-lg, sidebarbutton"
 					value="Roadster"
-					onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/showModel?model=roadster'" />
+					onclick="window.location.href='http://localhost/car/showModel?model=roadster'" />
 				<input type="button" class="btn btn-secondary btn-lg, sidebarbutton"
 					value="Sport"
-					onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/showModel?model=sport'" />
+					onclick="window.location.href='http://localhost/car/showModel?model=sport'" />
 				<input type="button" class="btn btn-secondary btn-lg, sidebarbutton"
 					value="SUV"
-					onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/showModel?model=suv'" />
+					onclick="window.location.href='http://localhost/car/showModel?model=suv'" />
 			</div>
 		</div>
 	</form>
@@ -43,7 +43,7 @@
 						<?php if(Authentication::isLoggedIn()){?>
 						<input type="button" class="btn btn-secondary btn-lg, sellbutton"
 							value="Jetzt Auto verkaufen !"
-							onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car/sell'" />
+							onclick="window.location.href='http://localhost/car/sell'" />
 						<?php
     } ?>
 					</form>

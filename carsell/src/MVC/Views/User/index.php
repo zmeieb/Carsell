@@ -14,11 +14,11 @@
 		<div>
 			<input type="password" name="password" id="inputPassword"
 				class="form-control" placeholder="Passwort" required> <label></label>
-		</div>
+		</div>st
 
 		<button class="btn btn-lg btn-primary btn-block mainloginbutton"
 			type="submit">Anmelden</button>
-		<button class="btn btn-lg btn-primary btn-block mainloginbutton" onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/user/createAngaben'"
+		<button class="btn btn-lg btn-primary btn-block mainloginbutton" onclick="window.location.href='http://localhost/user/createAngaben'"
 			type="button">Jetzt registrieren</button>
 	</div>
 </form>

@@ -43,10 +43,10 @@ require_once 'C:\xampp\htdocs\carsell\carsell\src\Libraries\Authentication.php';
 		<div class="col-sm">
 			<div>
 				<a class="btn btn-outline-success, loginbutton"
-					href="http://stu-inf-2017-zh-carsell.local/user/createAngaben">Registrieren</a>
+					href="http://localhost/user/createAngaben">Registrieren</a>
 
 				<a class="btn btn-outline-success, loginbutton"
-					href="http://stu-inf-2017-zh-carsell.local/user"><?php
+					href="http://localhost/user"><?php
     if (Authentication::isLoggedIn()) {
         echo "Logout";
     } else {

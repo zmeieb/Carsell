@@ -51,7 +51,7 @@ foreach ($auto as $info) {
 				<form>
 					<input type="button" class="btn btn-secondary btn-lg, backbutton"
 						value="Zurück"
-						onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car'" />
+						onclick="window.location.href='http://localhost/car'" />
 
 				</form>
 			</div>
@@ -64,7 +64,7 @@ foreach ($auto as $info) {
 				<form>
 					<input type="button" class="btn btn-secondary btn-lg, buybutton"
 						value="Aktuelles Gebot:  <?= $info->aktuellesgebot?> CHF"
-						onclick="window.location.href='http://stu-inf-2017-zh-carsell.local/car'" />
+						onclick="window.location.href='http://localhost/car'" />
 
 
 				</form>
