@@ -1,8 +1,14 @@
 $(document).ready(function() {
-	
+
 	/**
-	 * Funktion um vom "createAngaben" zum "createAdresse" mit AJAX wechseln. Nebenbei sollten alle Werte die auf createAngaben erstellt werden, auf die 
-	 * createAdresse mitgebracht werden, damit auch alles in die Datenbank geschrieben wird.
+	 * Funktion um vom "createAngaben" zum
+	 * "createAdresse" mit AJAX wechseln.
+	 * Nebenbei sollten alle Werte die auf
+	 * createAngaben erstellt werden, auf
+	 * die
+	 * createAdresse mitgebracht werden,
+	 * damit auch alles in die Datenbank
+	 * geschrieben wird.
 	 */
 	
 	$("#formular").submit(function(event){
